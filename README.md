@@ -60,12 +60,12 @@ Hospedagem: Vercel.
 
 👥 6. Equipe de Desenvolvimento
 
-[Nome do Aluno 1]
+Guilherme Ciatti
 
-[Nome do Aluno 2]
+Luyde Amorim
 
-[Nome do Aluno 3]
+Luiz Carlos
 
-[Nome do Aluno 4]
+Gabriel
 
 Projeto desenvolvido para a disciplina de Desenvolvimento Front-End.
