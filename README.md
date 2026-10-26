@@ -1,71 +1,35 @@
-🏥 Clínica Santa Clara — Sistema Empresarial de Agendamento Médico
+# Clínica Santa Clara — Sistema de Gestão de Consultas
 
-Projeto Prático de Desenvolvimento Front-End (Avaliação A2)
+Sistema web desenvolvido como projeto prático front-end para a disciplina de desenvolvimento de sistemas empresariais. A aplicação resolve problemas reais de gestão de agendamentos em clínicas médicas de pequeno e médio porte, substituindo processos manuais em papel por um fluxo digital ágil e acessível.
 
-Link do Deploy (Aplicação em Produção): https://trabalhoclinica.vercel.app/
+🔗 **Link de Acesso (Deploy na Vercel):** https://trabalhoclinica.vercel.app/
 
-📌 1. Visão Geral do Projeto
+---
 
-A Clínica Santa Clara é uma aplicação web desenvolvida para otimizar o processo de agendamento e controle de atendimento em clínicas médicas de pequeno e médio porte.
+## 🚀 Tecnologias Utilizadas
+O projeto foi desenvolvido estritamente com tecnologias nativas, conforme as diretrizes do regulamento:
+* **HTML5 Semântico** (`header`, `main`, `form`, `section`)
+* **CSS3** (com uso obrigatório de **Flexbox** e Variáveis CSS `:root`)
+* **JavaScript Puro (Vanilla JS)** (manipulação do DOM, armazenamento em memória e programação reativa)
 
-O sistema foi construído estritamente com tecnologias nativas da Web (HTML5, CSS3 com Flexbox e JavaScript Vanilla), atendendo integralmente às diretrizes do regulamento acadêmico e sem a utilização de frameworks ou bibliotecas externas.
+---
 
-🎯 2. Mapeamento do Problema de Negócio
+## 📋 Funcionalidades Principais (Regra de Negócio)
+1. **Cadastro Interativo de Consultas:** Formulário completo com validação de campos obrigatórios (`required`) para capturar o nome do paciente, a especialidade médica e a data do atendimento.
+2. **Central de Filtros e Visualização:** Painel dinâmico que permite alternar a visualização da listagem entre *Todas* as consultas, apenas as *Agendadas* ou apenas as *Concluídas*.
+3. **Gestão Dinâmica de Estado:** Botão interativo para alterar o status do atendimento em tempo real (`Agendado` ⇄ `Concluído`) sem necessidade de recarregar a página.
 
-🔴 O Problema
+---
 
-Muitas clínicas ainda realizam o controle de consultas via papel, cadernos ou planilhas desconexas, o que resulta em:
+## ♿ Diferencial de Acessibilidade
+O sistema conta com recursos voltados à inclusão digital e usabilidade para pacientes com baixa visão:
+* **Ajuste Dinâmico de Fonte:** Botões `A+` e `A-` para redimensionar o tamanho da tipografia em todo o sistema.
+* **Modo de Alto Contraste:** Alternância visual para tema de alto contraste (fundo escuro e textos destacados) para facilitar a leitura.
 
-Erros e duplicidade no agendamento de horários.
+---
 
-Dificuldade no acompanhamento em tempo real das consultas concluídas vs. pendentes.
-
-Falta de acessibilidade para pacientes idosos ou com limitações visuais.
-
-🟢 A Solução
-
-Um painel centralizado, leve e acessível que permite cadastrar novos atendimentos, acompanhar o status dinâmico das consultas e aplicar filtros instantâneos sem recarregar a página, aliado a ferramentas nativas de acessibilidade.
-
-🚀 3. As 3 Funcionalidades Principais de Negócio
-
-Cadastro Interativo de Consultas: Formulário padronizado para registrar o paciente, a especialidade médica e a data do atendimento com validação de campos obrigatórios (required).
-
-Central de Filtros e Visualização: Filtragem dinâmica dos atendimentos cadastrados entre Todas, Agendadas e Concluídas.
-
-Gestão Dinâmica de Estado: Alternância de status da consulta (entre Agendado e Concluído) em tempo real com alteração direta na memória JavaScript.
-
-✨ Diferencial Técnico: Recursos de Acessibilidade
-
-Botões para Aumentar (A+) e Diminuir (A-) o tamanho da fonte.
-
-Modo de Alto Contraste (fundo preto e texto amarelo) para facilitar o acesso de pessoas com baixa visão.
-
-🛠️ 4. Tecnologias Utilizadas
-
-HTML5 Semântico: Estruturação acessível e bem definida (header, main, section, form).
-
-CSS3 & Flexbox: Estilização moderna e layout responsivo com display: flex, variáveis CSS e reset global.
-
-JavaScript Puro (Vanilla ES6+): Manipulação dinâmica do DOM, controle de arrays em memória (push, filter, forEach, find) e manipuladores de eventos (onclick, onsubmit).
-
-Hospedagem: Vercel.
-
-📁 5. Estrutura de Arquivos
-
-/
-├── index.html   # Estrutura semântica da página
-├── style.css    # Estilos, Flexbox, variáveis e tema de alto contraste
-└── script.js    # Lógica do sistema, manipulação do DOM e acessibilidade
-
-
-👥 6. Equipe de Desenvolvimento
-
-Guilherme Ciatti
-
-Luyde Amorim
-
-Luiz Carlos
-
-Gabriel
-
-Projeto desenvolvido para a disciplina de Desenvolvimento Front-End.
+## 👥 Equipe do Projeto
+* Guilherme Ciatti
+* Luyde Amorim
+* Gabriel
+* Luiz Carlos
