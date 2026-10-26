@@ -31,5 +31,5 @@ O sistema conta com recursos voltados à inclusão digital e usabilidade para pa
 ## 👥 Equipe do Projeto
 * Guilherme Ciatti
 * Luyde Amorim
-* Gabriel
+* Gabriel Silva
 * Luiz Carlos
